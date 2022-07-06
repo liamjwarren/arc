@@ -7,6 +7,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Schedule from "../components/Schedule";
 import Livestream from "../components/Livestream";
 import Standings from "../components/Standings";
+import Sponsors from "../components/Sponsors";
 
 function Copyright() {
   return (
@@ -71,6 +72,7 @@ export default function Home() {
             <Schedule />
             <Standings />
             <Livestream />
+            <Sponsors />
           </Container>
         </Box>
       </main>
